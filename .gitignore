@@ -1,0 +1,48 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+.qwen32env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Generated outputs
+outputs/
+results/
+
+# Local datasets downloaded by users
+data/
+
+# Model weights / checkpoints / caches
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+.cache/
+huggingface/
+.huggingface/
+hf_cache/
+
+# Jupyter
+.ipynb_checkpoints/
